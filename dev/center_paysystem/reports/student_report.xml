@@ -1,0 +1,10 @@
+<odoo>
+    <report
+        id="student_report"
+        model="center_paysystem.student"
+        string="Student Report"
+        report_type="qweb-pdf"
+        name="center_paysystem.report_student"
+        file="center_paysystem.report_student"
+    />
+</odoo>

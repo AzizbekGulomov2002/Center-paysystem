@@ -1,0 +1,6 @@
+"id", "name", "model_id:id", "group_id:id", "perm_read", "perm_write", "perm_create", "perm_unlink"
+"access_student_user", "Student User", "model_center_paysystem_student", "base.group_user", 1, 1, 1, 1
+"access_teacher_user", "Teacher User", "model_center_paysystem_teacher", "base.group_user", 1, 1, 1, 1
+"access_course_user", "Course User", "model_center_paysystem_course", "base.group_user", 1, 1, 1, 1
+"access_group_user", "Group User", "model_center_paysystem_group", "base.group_user", 1, 1, 1, 1
+"access_payment_user", "Payment User", "model_center_paysystem_payment", "base.group_user", 1, 1, 1, 1
