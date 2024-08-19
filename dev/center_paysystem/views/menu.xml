@@ -1,6 +1,9 @@
 <odoo>
-    <menuitem id="menu_center_paysystem_root" name="Pay System" sequence="1"/>
+    <menuitem id="main_center_paysystem_menu" name="Center Paysystem" sequence="1"/>
 
-    <!-- To'g'ri action_student ID orqali havola kiritildi -->
-    <menuitem id="menu_student" name="Students" parent="menu_center_paysystem_root" sequence="10" action="center_paysystem.action_student"/>
+    <menuitem id="student_menu" name="Students" parent="main_center_paysystem_menu" action="action_student"/>
+    <menuitem id="teacher_menu" name="Teachers" parent="main_center_paysystem_menu" action="action_teacher"/>
+    <menuitem id="course_menu" name="Courses" parent="main_center_paysystem_menu" action="action_course"/>
+    <menuitem id="group_menu" name="Groups" parent="main_center_paysystem_menu" action="action_group"/>
+    <menuitem id="payment_menu" name="Payments" parent="main_center_paysystem_menu" action="action_payment"/>
 </odoo>
